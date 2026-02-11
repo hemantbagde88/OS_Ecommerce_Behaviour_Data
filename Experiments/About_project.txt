@@ -1,0 +1,26 @@
+Clustering Customer Behavior Based on E-commerce Event Data
+
+In a modern e-commerce platform, understanding customer behavior is critical for optimizing user experience and increasing sales. The provided dataset contains information about user interactions with various products on the platform, including event types, product categories, brands, prices, and user sessions.
+This is an unsupervised machine learning problem aimed at uncovering hidden patterns in user behavior to group similar users or actions. These insights could assist in personalizing user experiences, targeting advertisements, or improving product recommendations.
+
+For this problem statement you can use complete data and cluster it to find top themes.
+Provide your solution which consists of:
+-	Data Cleaning & preprocessing
+-	Features selected.
+-	Clustering and number of clusters identified /suggested by you as Data Scientist
+-	Evaluation of model
+-	Insights for Business
+
+Use the “ecommerce_behavior”’ table from the Clustering.db file for the project.
+Please feel free to reach out to your mentor in case of any doubts.
+
+
+event_time: Timestamp of the event.
+event_type: Type of event (e.g., view, purchase).
+product_id: Unique identifier of the product.
+category_id: Unique identifier of the product category.
+category_code: Human-readable code of the product category.
+brand: Brand of the product.
+price: Price of the product at the time of the event.
+user_id: Unique identifier of the user.
+user_session: Unique identifier of the user session.
